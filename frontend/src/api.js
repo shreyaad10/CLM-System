@@ -2,7 +2,7 @@
 // api.js - All API calls to the backend
 // =============================================
 
-const BASE_URL = 'http://localhost:5000/api';
+const BASE_URL = 'https://clm-system-backend.onrender.com';
 
 // Helper: read the JWT token stored after login
 const getToken = () => localStorage.getItem('crm_token');
